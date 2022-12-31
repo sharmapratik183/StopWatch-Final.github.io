@@ -1,0 +1,56 @@
+body{
+    background-color: rgb(199, 243, 239);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#container
+{
+    color: rgba(15, 15, 15, 0.993);
+
+}
+
+.digit{
+    font-size: 150px;
+    font-weight: bold;
+}
+
+.txt{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#btn-container{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.btn{
+    padding: 7px 25px;
+    font-size: 15px;
+    margin: 0px 10px;
+    color: rgb(252, 248, 248);
+    border: 0px;
+    cursor: pointer;
+    font-weight: bold;
+
+}
+
+#start{
+
+    background-color: rgb(8, 235, 159);
+
+}
+
+#stop{
+
+    background-color: rgb(6, 113, 207);
+
+}
+
+#reset{
+    background-color: red;
+
+}
